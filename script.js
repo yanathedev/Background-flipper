@@ -13,11 +13,11 @@
 //     return Math.floor(Math.random() * colors.length);
 // }
 
-const colors = ['red', 'blue', 'green', 'black'];
+const colors = ['#D99ABC','#F2CEE9','#77ACF2','#F2D479','#F2BC79'];
 const btn = document.getElementById('btn');
 const color = document.querySelector('.color');
 
-btn.addEventListener('click', function() {
+btn.addEventListener('click', function(){
     const randomNumber = getRandomNumber();
     console.log(randomNumber);
     document.body.style.backgroundColor = colors[randomNumber];
