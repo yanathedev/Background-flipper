@@ -1,4 +1,4 @@
-const colors = ['#D99ABC','#F2CEE9','#77ACF2','#F2D479','#F2BC79'];
+const colors = ['#A68A56','#F25252','#F27777','#F2F2F2','#0D0D0D'];
 const btn = document.getElementById('btn');
 const color = document.querySelector('.color');
 
